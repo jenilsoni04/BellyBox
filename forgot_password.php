@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
         $to = $email;
         $subject = "Verification Code";
         $body = "Hi,\n\nThis is your verification code: $rand";
-        $header = "From: himanshugohel07@gmail.com";
+        $header = "From: jenilvipulsoni22@gmail.com";
 
         if (mail($to, $subject, $body, $header)) {
             $_SESSION['otp'] = $rand;
