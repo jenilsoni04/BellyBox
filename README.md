@@ -18,7 +18,7 @@ BellyBox is a PHP-based web platform designed to connect home-chefs and women en
 - **Backend:** PHP
 - **Frontend:** HTML, CSS, JavaScript
 - **Containerization:** Docker
-- **Database:** (Add your DB, e.g. MySQL)
+- **Database:** MySQL
 - **Version Control:** Git & GitHub
 
 ---
