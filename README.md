@@ -17,28 +17,8 @@ BellyBox is a PHP-based web platform designed to connect home-chefs and women en
 
 - **Backend:** PHP
 - **Frontend:** HTML, CSS, JavaScript
-- **Containerization:** Docker
 - **Database:** MySQL
 - **Version Control:** Git & GitHub
-
----
-
-## 📁 Project Structure
-
-```
-BellyBox/
-│
-├── assets/             # Static assets like images, CSS, JS
-├── src/                # PHP source files
-│   ├── controllers/    # Logic controllers
-│   ├── models/         # Database models
-│   └── views/          # HTML/PHP templates
-├── docker/             # Docker-related files
-├── .env.example        # Environment configuration sample
-├── Dockerfile          # Docker build file
-├── README.md           # Project documentation
-└── index.php           # Entry point
-```
 
 ---
 
@@ -48,7 +28,6 @@ BellyBox/
 2. The platform manages order data via the database.
 3. **Home Chefs** provide menu and meal details through the platform.
 4. The platform notifies home chefs of new orders.
-5. Docker is used for easy deployment and containerization.
 
 ---
 
